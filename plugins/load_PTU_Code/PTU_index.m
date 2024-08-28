@@ -11,7 +11,7 @@ function [head, im_sync, im_tcspc, im_chan, im_line, im_col, im_frame] = PTU_ind
 %
 % Copyright (C) 2020, Jan Christoph Thiele, christoph.thiele@phys.uni-goettingen.de
 
-photons = 1e7;
+photons = 5e6;
 if strcmp(name(end-2:end),'ptu')
     
     head = PTU_Read_Head(name);
